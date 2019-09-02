@@ -1,0 +1,65 @@
+html,
+body,
+header,
+.view{
+  height:100%
+}
+
+@media(max-width: 740x){
+  html,
+  body,
+  header,
+  .view{
+    height:100%
+  }
+}
+
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #78909c  !important;
+  }
+}
+
+
+.logo-image{
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+
+img.resize{
+  width: 46px;
+  height: 46px;
+}
+
+#aboutme{
+  padding-top:50px;
+  height:500px;
+  color: #fff;
+  background-color: #1E88E5;
+}
+
+h1 {
+  letter-spacing: 8px;
+
+}
+
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
